@@ -1,4 +1,5 @@
 FROM micktwomey/python3.4:latest
+MAINTAINER Carl Saturnino <cosaturn@gmail.com>
 
 RUN apt-get update
 RUN apt-get -y install phantomjs
